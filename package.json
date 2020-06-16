@@ -1,0 +1,84 @@
+{
+  "name": "os-viewer",
+  "version": "1.0.0",
+  "description": "系统UI",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "webpack --config ./config/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eternal-sand/os-viewer.git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "",
+      "pre-push": ""
+    }
+  },
+  "keywords": [
+    "react",
+    "os",
+    "viewer"
+  ],
+  "author": "eternal-sand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eternal-sand/os-viewer/issues"
+  },
+  "homepage": "https://github.com/eternal-sand/os-viewer#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-decorators": "^7.10.1",
+    "@babel/plugin-proposal-export-default-from": "^7.10.1",
+    "@babel/polyfill": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/preset-typescript": "^7.10.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-import": "^1.13.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-react-app": "^3.1.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "concurrently": "^5.2.0",
+    "css-loader": "^3.6.0",
+    "csv-loader": "^3.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-umi": "^0.1.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "express": "^4.17.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "husky": "^4.2.5",
+    "mini-css-extract-plugin": "^0.9.0",
+    "nodemon": "^2.0.4",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "prettier": "^1.19.1",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-bundle-analyzer": "^3.8.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-manifest-plugin": "^2.2.0",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-desktop": "^0.3.9",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "lodash": "^4.17.15"
+  }
+}
